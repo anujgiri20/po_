@@ -1,0 +1,40 @@
+.himyname{
+    margin: 0px 0px  4px;
+   color: #ccc;
+    font-family: var(--font-mono);
+    font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+    font-weight: 400;
+    font-size: 2em;
+}
+.logoA
+{
+ border: 1px solid #F1FA3C;
+ padding:4px;
+ color:#F1FA3C;
+ margin-left:20px;
+
+}
+.logoA:hover{
+    color:white;
+    border: 1px solid white;
+}
+
+.anujimg
+{
+    display:flex;
+    justify-content: center;
+  
+
+  filter:grayscale(100%);
+  border:2px solid #F1FA3C;
+  width:20px;
+}
+.anujimg:hover{
+  filter: none;
+}
+/* 
+@media (max-width: 900px){
+  .logoA{
+    display: none;
+  }
+} */
